@@ -1,0 +1,429 @@
+body{
+    margin: 0px;
+}
+/* main{
+    min-width: 90%;
+} */
+/* header */
+#body-header{
+    
+    height: 70vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    
+}
+/* horizontal list  */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    
+    
+}  
+.nav-name{
+    padding-top: 25px;
+   
+}   
+    
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 25px 25px 0px;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.horizontal-list li a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* transition: color 0.5s, border-bottom 4s; */
+    font-size: 20px;    
+}
+.horizontal-list li a :hover{
+    color: rgba(201, 195, 195, 0.459);
+    
+}
+.nav-menu li a {
+    transition: color 0.8s, border-bottom 4s;
+
+}
+.nav-menu li a:hover{
+    border-bottom: 1px solid white;
+    color: rgb(46, 84, 122);
+    text-decoration: none;
+}
+
+.text-centre{
+    text-align: center;
+    
+}
+/* MY NAME */
+#title-name{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+}
+/* SOCIAL ICONS  */
+.social-icons li a i{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 5px 8px rgb(46, 84, 122);
+
+}
+/* SECTION CLASSES */
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+section:nth-child(2n){
+    background-color: #b5a7a729;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.heading-box{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    
+}
+
+.heading-box span{
+    font-size: ;
+    color: #2857a2;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+/* ABOUT */
+#about{
+    height:auto;
+    width: 100%;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
+    position: relative;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+
+    
+}
+#summary{
+    text-align: center;
+    padding: 50px 200px 50px 200px;
+    font-weight: 500;
+}
+#summary span{
+    color: rgb(65, 65, 185);
+    font-weight: 700;
+}
+
+/* HEADINGS */
+.headings-box{
+    font-family: sans-serif;
+    color: #2857a2;
+    margin-top: 35px;
+}
+
+/* SKILLS */
+
+
+.skills-display{
+    width: 70%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 100px;
+    align-items: center;
+    color: rgb(235, 244, 243);
+
+}
+h2 span{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.skill-progress{
+    width: 12rem;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 20px;
+    
+    
+    
+}
+.skill-name{
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.mb-blue{
+    background-color: #2857a2;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.mb-yellow{
+    background-color: #e1e122;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.mb-green{
+    background-color: #29e251;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.mb-orange{
+    background-color: #b54820;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.mb-pink{
+    background-color: #df1ca8;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+/* percentage class */
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+    
+}
+.sixty-five-percent{
+    width: 65%;
+    height: inherit;
+    
+}
+.fifty-five-percent{
+    width: 55%;
+    height: inherit;
+    
+}
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+    
+}
+/* PortFolio */
+
+.portfolio img{
+    height: 300px;
+    width: 300px;
+    padding: 50px 30px 50px 30px;
+
+}
+.portfolio-div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+/* CONTACTS */
+.contacts{
+    width: auto;
+    height: 120vh;
+    background: linear-gradient(90deg,rgb(18, 18, 86),rgb(59, 7, 148));
+    
+    
+}
+.contacts-box{
+    
+    /* padding: 10px; */
+    display: flex;
+    
+
+}
+.form{
+    /* border: 2px solid black; */
+    width: 40%;
+    margin-left: 6%;
+    padding: 2%;
+}
+#form-container{
+    margin-left: 20%;
+
+}
+#form-container input,textarea{
+    /* margin-left: 20%; */
+    max-width: 90%;
+    width: 90%;
+    padding: 6px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    background: transparent;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-left: -30px;
+}
+
+
+.headings-contact{
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+.getintouch{
+    /* border: 2px solid black; */
+    width: 35%;
+    margin-left: 5%;
+    padding: 2%;
+    color: white;
+    font-family: sans-serif;
+}
+input:focus,select:focus,textarea:focus,button:focus{
+    outline: none;
+}
+#form-container button[type="submit"]{
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 5%;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.7em;
+    text-transform: uppercase;
+    margin-left: 90px;
+}
+
+/* TIEMLINE */
+
+.timeline{
+    position: relative;
+    width: 75%;
+    /* border: 2px solid black; */
+    margin-bottom: 70px;
+    
+}
+.timeline-box{
+
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 8px;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.timeline-box h4{
+    color: #2857a2;
+    margin-left: 11rem;
+    
+}
+.timeline-box k{
+    color: #b5692a;
+    margin-left: 11rem;
+    line-height: 10px;
+
+    
+    
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 2px dashed #0096fa6b;
+    top: 11%;
+    left: 50%;
+
+}
+.timeline-traveller{
+    position: sticky;
+    top: 10%;
+    transform: rotate(90deg);
+    color: #2857a2;
+    font-size:x-large;
+}
+
+
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -8.4%;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: rgba(114, 105, 105, 1);
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -9.2%;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: rgba(114, 105, 105, 1);
+}
+.logo-company::before{
+    content: '';
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    margin-top: 7px;
+
+}
+.college-logo::before{
+    content: '';
+    background-image: url(http://recbanda.ac.in/wp-content/uploads/2016/11/about_logo.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.school-logo::before{
+    content: '';
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/Kendriya_Vidyalaya_logo.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
