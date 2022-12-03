@@ -407,7 +407,7 @@ input:focus,select:focus,textarea:focus,button:focus{
 }
 .college-logo::before{
     content: '';
-    background-image: url("http://recbanda.ac.in/wp-content/uploads/2016/11/about_logo.png");
+    background-image: url(http://recbanda.ac.in/wp-content/uploads/2016/11/about_logo.png);
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
