@@ -426,16 +426,21 @@ input:focus,select:focus,textarea:focus,button:focus{
 }
 .timeline-box h4{
     color: #2857a2;
-    margin-left: 55%;
+    margin-left: 45%;
     
 }
 .timeline-box k{
-    color: #b5692a;
-    margin-left: 55%;
+    color: #793c0b;
+    margin-left: 45%;
     line-height: 10px;
 
     
     
+}
+.timeline-box j{
+    color: #793c0b;
+    margin-left: 45%;
+    flex-wrap: wrap;
 }
 
 .timeline-divider{
@@ -447,7 +452,7 @@ input:focus,select:focus,textarea:focus,button:focus{
     left: 50%;
     padding: 0px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     
     .timeline-divider{
         left: 5%;
@@ -462,7 +467,19 @@ input:focus,select:focus,textarea:focus,button:focus{
         left: -12% !important;
     }
     
-
+    .timeline-box k{
+        margin-left: 55%;
+        flex-wrap: wrap;
+    }
+    .timeline-box j{
+        margin-left: 45%;
+        flex-wrap: wrap;
+    }
+    .timeline-box h4{
+    color: #2857a2;
+    margin-left: 45%;
+    
+}
 }
 
 
