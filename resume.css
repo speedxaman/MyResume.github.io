@@ -525,7 +525,7 @@ input:focus,select:focus,textarea:focus,button:focus{
 }
 .college-logo::before{
     content: '';
-    background-image: url(https://scontent.fknu3-1.fna.fbcdn.net/v/t39.30808-6/308704668_482445863894810_1700671024853759693_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AqEG50z7XckAX_GmhJM&_nc_ht=scontent.fknu3-1.fna&oh=00_AfCvkO22QDApCpssQ7YIFRpcigWSyvvbEPHLE8FCtXGy2g&oe=639F1547);
+    background-image: url([![collegelogo.png](https://i.postimg.cc/xdpcN9f2/collegelogo.png)](https://postimg.cc/B8Dqd9PY));
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
